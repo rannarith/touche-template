@@ -1,0 +1,349 @@
+html,body{
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+}
+#home-wrapper {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.home-cover {
+    background-image: url("img/1.jpg");
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* display: table; */
+}
+.home-mask {
+    background-color: black;
+    height: 100%;
+    opacity: 0.6;
+    /* position: static; */
+    /* z-index: 9999; */
+}
+
+#home-content-box {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 200px;
+    color: white;
+}
+
+.box1 {
+    padding-top: 90px;
+    position: relative;
+}
+
+.blog1{
+    text-align: left;
+    padding-right: 40px;
+    position: relative;
+    z-index: 9;
+}
+.underline{
+    width: 30px;
+    height: 3px;
+    background-color: #f5a637;
+    margin: 0 0 30px 0;
+}
+.img-cust {
+    width: 300px;
+    height: 450px;
+    /* margin-left: 30px;  */
+    position: absolute;
+}
+.img-shadow1{
+    width: 300px;
+    height: 450px;
+    border: 1px solid rgba(0,0,0,0.1);
+    /* padding-left: 40px;
+    padding-top: 40px; */
+   margin-top: 50px;
+   margin-left: 60px;
+   
+}
+.blog2 {
+    position: absolute;
+    margin-left:200px;
+    /* left: 50%;  */
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+.img-shadow2{
+    width: 300px;
+    height: 450px;
+    background-color: #f0f0f0;
+    margin-top: -50px;
+   margin-left: -90px;
+   position: absolute;
+   
+}
+.bottom {
+    padding-top: 250px;
+}
+
+#about {
+    margin-top:40px;
+}
+.about-bg{
+    background-image: url("img/2.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+#our-menu{
+    padding: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.img-food-size {
+    width: 110px;
+    height: 110px;
+}
+
+#menu #nav{
+  padding-bottom: 50px; 
+}
+#nav a{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+}
+
+.nav-underline{
+    width: 40px;
+    height: 3px;
+    background-color: #f5a637;
+    margin: 0 0 30px 0;
+}
+
+.media-desc {
+    padding: 0 30px 0 20px;
+}
+
+.img-custom {
+    width: 400px;
+    height: 250px;
+    border: 0;
+    margin: -2px;
+}
+
+.content-slide{ 
+    text-align: center;
+    margin: 80px auto 50px auto;
+}
+
+
+.inline-block {
+    /* display: flex; */
+    padding-left: 0;
+    padding-right: 0;
+}
+.col-md-3 {
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+#reservation{
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    margin-top: 90px;
+    padding-top: 50px;
+    text-align: center;
+}
+.content-inner {
+    margin:40px auto 40px auto ;
+    max-width: 600px;
+    /* margin: auto; */
+}
+.content-inner h4 {
+    text-align: center;
+}
+
+
+
+
+.input-row {
+    padding: 8px;
+}
+.border-in {
+    border-radius: 0;
+    padding: 10px;
+    border: 1px;
+    color: #495057;
+
+}
+
+#reservation {
+    padding-bottom: 50px;
+}
+
+#reservation > button {
+    margin-top: 20px;
+    color: #495057;
+}
+
+#reservation input:focus {
+    -webkit-box-shadow: inset 0 0 6px #f5a637; 
+}
+.input-row .col-md-3 {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+/* Add Icon into input box */
+.inner-addon {
+    position: relative;
+}
+.inner-addon .fas {
+    position: absolute;
+    padding: 10px;
+    /* pointer-events:stroke; */
+}
+.right-addon .fas{
+    right: 0;
+    
+}
+
+/* Border slect */
+.border-select {
+    border-radius: 0;
+    border-color: cyan ;
+    width: 100%;
+}
+.border-select > .dropdown-item{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+/* Calendar drop */
+.inner-addon .far {
+    position: absolute;
+    padding: 10px;
+    /* pointer-events:stroke; */
+}
+.right-addon .far{
+    right: 0;
+    color: #495057;
+}
+
+.date {
+    background-color: white;
+    border-bottom: 0;
+    padding: 12px;
+}
+.gj-icon{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.gj-icon:focus{
+    border: 0;
+}
+.date input{
+    border: 0;
+}
+
+
+/* ================================================================
+                        Button Generate
+================================================================ */
+.btn-generate{
+    color: white;
+    border-radius: 0;
+    border-color: #fc9607;
+    text-transform: uppercase;
+    padding: 15px 30px 15px 30px;
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid #fc9607;
+}
+.btn-generate:hover{
+    color: #fc9607;
+    background-color: transparent;
+    border-color: #fc9607;
+
+}
+/* ================================================================
+                        Button Generate
+================================================================ */
+
+/* ================================================================
+                        Client Blog
+================================================================ */
+#client{
+    margin: 80px auto 80px auto;
+    width: 100%;
+    height: 100%;
+}
+.client-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.radius {
+    border-radius: 50%;
+    width: 250px;
+}
+
+#client .media {
+    max-width: 100%;
+    text-align: center;
+    padding: 0 150px 0 150px;
+}
+
+#client .media p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+    text-align: left;
+    max-width: 700px;
+    padding-left: 90px;
+}
+
+#client h5{
+    padding-left: 90px;
+    color: black;
+    opacity: 0.4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* ================================================================
+                        Event Blog
+================================================================ */
+
+#coming-event{
+    margin: 80px auto 80px auto;
+    width: 100%;
+    height: 100%;
+}
+.event-header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.event-cover {
+    background-image: url("img/2.jpg");
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
